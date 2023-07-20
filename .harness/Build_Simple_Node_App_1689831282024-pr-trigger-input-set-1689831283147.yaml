@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Simple_Node_App_1689831282024-pr-trigger-input-set
+  identifier: Build_Simple_Node_App_1689831282024prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ContainerRegistryTutorial
+  pipeline:
+    identifier: Build_Simple_Node_App_1689831282024
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
